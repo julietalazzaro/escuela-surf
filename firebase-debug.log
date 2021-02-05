@@ -1,0 +1,43 @@
+[debug] [2021-02-05T05:27:49.771Z] ----------------------------------------------------------------------
+[debug] [2021-02-05T05:27:49.775Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2021-02-05T05:27:49.777Z] CLI Version:   9.3.0
+[debug] [2021-02-05T05:27:49.777Z] Platform:      linux
+[debug] [2021-02-05T05:27:49.777Z] Node Version:  v10.19.0
+[debug] [2021-02-05T05:27:49.780Z] Time:          Fri Feb 05 2021 02:27:49 GMT-0300 (Argentina Standard Time)
+[debug] [2021-02-05T05:27:49.780Z] ----------------------------------------------------------------------
+[debug] [2021-02-05T05:27:49.780Z] 
+[debug] [2021-02-05T05:27:49.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-05T05:27:49.797Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/Users/JULIETA/documents/web/escuela_surf
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-02-05T05:27:54.831Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-02-05T05:27:55.897Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-02-05T05:27:55.897Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project escueladesurfmarazul (escueladesurf) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
